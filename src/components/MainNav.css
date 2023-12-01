@@ -1,0 +1,40 @@
+.navigation-bar{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #2d313a;
+    margin-top: 3rem;
+    height: 3.5rem;
+    z-index: 100;
+    padding-top: 10px;
+}
+.nav-name{
+    text-align: center;
+   color: white;
+   padding-top: 5px;
+   cursor: pointer;
+   font-size: 13px;
+   padding: 0 5rem;
+   
+}
+.nav-name p{
+    margin-top: 2px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.nav-name:hover{
+    color:burlywood
+}
+
+@media(max-width:700px){
+    .navigation-bar{
+        height: 45px;
+        font-size: 0.6rem;
+        justify-content: space-around;
+    }
+    .nav-name{
+        padding: 0 1rem;
+    }
+}
